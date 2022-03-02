@@ -82,7 +82,7 @@ time.sleep(2)
 
 #MQTT client/broker parameters
 client_id = "karasu_control"
-broker_ad = "192.168.0.103"
+broker_ad = "" #Write your broker IP address or Host name here
 topic_id = "karasu/control"
 client = mqtt.Client(client_id)
 
