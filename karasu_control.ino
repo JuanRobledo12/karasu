@@ -62,11 +62,11 @@ void callback(char *topic, byte *payload, unsigned int length)
   
 
 //WiFi parameters
-const char *ssid = "TP-Link_CCA5"; //Enter WiFi name
-const char *password = "46470614"; //Enter WiFi passoword
+const char *ssid = ""; //Enter WiFi name
+const char *password = ""; //Enter WiFi passoword
 
 //client/broker parameters
-const char *mqtt_broker = "192.168.0.103";
+const char *mqtt_broker = "";
 const char *topic = "karasu/control";
 String client_id = "karasu_esp8266";
 const int mqtt_port = 1883; //Enter broker port
