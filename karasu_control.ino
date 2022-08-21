@@ -1,11 +1,11 @@
 /* KARASU CONTROL PROGRAM
  *  
-  Description: This program subscribes to an MQTT topic to receive JSON data with the
-  necessary angles for Karasu to reach certain position. The ESP8266 connects to the internet and 
-  to a MQTT network, then it controls the position of three servomotors with the obtained information.
-  Creator: Juan Antonio Robledo Lara
-  Last Modofication: March 02 2022
-  Github Repository: 
+Description: This program subscribes to an MQTT topic to receive JSON data with the
+necessary angles for Karasu to reach certain position. The ESP8266 connects to the internet and 
+to a MQTT network, then it controls the position of three servomotors with the obtained information.
+Creator: Juan Antonio Robledo Lara
+Last Modification: March 02 2022
+
  *
  */
 
