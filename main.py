@@ -1,6 +1,6 @@
 ###Karasu Main Program###
 #Description: This program calculates the necessary angles to reach a desired position with Karasu.
-#The program publish the calculated values in JSON to a MQTT topic in a MQTT network.
+#The program publishes the calculated values in JSON to a MQTT topic in a MQTT network.
 #The program can perform linear and angular interpolations for the robot's motion.
 #Creator: Juan Antonio Robledo Lara
 #Last Modofication: March 02 2022
