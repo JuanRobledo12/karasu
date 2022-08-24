@@ -1,6 +1,7 @@
 # karasu
 
 Project name: Karasu Project
+
 Description: The project consists of two software used to control a 3DOF planar robotic arm. 
 
 The "main.py" file is a Python program that lets the user input a coordinate (x, y) and the type of trajectory (angular or linear) 
