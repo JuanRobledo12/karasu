@@ -1,7 +1,5 @@
 # Karasu: A 3DOF Planar Robotic Arm with Wireless Control Using MQTT
 
-# 3DOF Planar Robotic Arm Controller
-
 This project is comprised of two software components that together control a 3-degree of freedom (3DOF) planar robotic arm. The project allows the user to input a desired (x, y) coordinate and the type of trajectory (angular or linear) that the robotic arm should take to reach this position. The software then calculates the necessary servo motor angles to achieve this movement.
 
 ## Software Components
@@ -19,8 +17,9 @@ This project is comprised of two software components that together control a 3-d
 ## Usage
 
 1. Run `main.py` in a Python environment. Enter the desired (x, y) coordinate and trajectory type when prompted.
-2. Make sure your ESP8266 board is connected and run `karasu_control.ino` from the Arduino IDE.
-3. The calculated servo angles will be published to the MQTT network, and the ESP8266 board will subscribe to this data, moving the robotic arm as directed.
+2. Make sure your ESP8266 board is connected and run `karasu_control.ino` from the Arduino IDE. You should upload the Arduino program in the ESP8266 board.
+3. You need to setup an MQTT broker to be able to use this system.
+4. The calculated servo angles will be published to the MQTT network, and the ESP8266 board will subscribe to this data, moving the robotic arm as directed.
 
 ## Dependencies
 
@@ -31,18 +30,8 @@ This project is comprised of two software components that together control a 3-d
 
 ## Authors
 
-Juan Antono Robledo Lara
+[Juan Antono Robledo Lara](https://juanrobledo12.github.io/)
 
 ## License
 
 This project is licensed under the [insert license here] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Acknowledgement 1
-- Acknowledgement 2
-
-## Contributing
-
-If you want to contribute to this project and make it better, your help is very welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
