@@ -1,7 +1,6 @@
 # Karasu: A 3DOF Planar Robotic Arm with Wireless Control Using MQTT
 
-This project is comprised of two software components that together control a 3-degree of freedom (3DOF) planar robotic arm. The project allows the user to input a desired (x, y) coordinate and the type of trajectory (angular or linear) that the robotic arm should take to reach this position. The software then calculates the necessary servo motor angles to achieve this movement.
-
+This project is comprised of two software components that together control a 3-degree of freedom (3DOF) planar robotic arm. The project allows the user to input a desired (x, y) coordinate and the type of trajectory (angular or linear) that the robotic arm should take to reach this position. The software then calculates the necessary servo motor angles to achieve this movement. For more detailed information refer to this [Youtube video](https://youtu.be/hmLtnLvdzH0?si=9x1ZSG2HvJZPItdD).
 ## Software Components
 
 1. `main.py`: This Python program allows the user to input a coordinate and trajectory type for the robotic arm. The software will then calculate the necessary servo motor angles by solving the forward and inverse kinematic equations. The calculated angles are published to an MQTT network for further processing.
@@ -32,6 +31,3 @@ This project is comprised of two software components that together control a 3-d
 
 [Juan Antono Robledo Lara](https://juanrobledo12.github.io/)
 
-## License
-
-This project is licensed under the [insert license here] - see the [LICENSE.md](LICENSE.md) file for details.
